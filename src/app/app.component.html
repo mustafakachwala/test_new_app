@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!!
+  </h1>
+
+</div>
+<h2>Lets get started:</h2>
+<!--<comp-parent></comp-parent>-->
+<nav><ul>
+  <li>
+    <h2><a [routerLink]="['/my-component', {fromHomePage: true, id: 1}]">My Component</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
+  </li>
+  <li>
+    <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
+  </li>
+
+</ul></nav>
+
+
+<router-outlet></router-outlet>

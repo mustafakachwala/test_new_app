@@ -1,0 +1,16 @@
+<div><h2>Welcome to child state which will implement ngRX store</h2></div>
+
+
+<div class="container-carousel">
+
+  <div class="left-mover" (click)="leftMover()" >&lt;</div>
+
+  <div class="class-container">
+    <div *ngFor="let dat of updatedPaxList">{{dat.paxName}}</div>
+  </div>
+
+
+
+  <div class="right-mover" (click)="rightMover()" >&gt;</div>
+</div>
+<div><button (click)="resetAll()">Reset</button></div>

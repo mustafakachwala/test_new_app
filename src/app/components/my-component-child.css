@@ -1,0 +1,19 @@
+.left-mover ,.right-mover{
+  border: 1px solid blue;
+  width: 20px;
+  height: 100px;
+}
+
+.container-carousel div {
+  display: inline-block;
+
+}
+.class-container {
+  width: 90%;
+
+}
+.class-container > div {
+  width: 32%;
+  border: 1px solid red;
+  height: 100px;
+}
